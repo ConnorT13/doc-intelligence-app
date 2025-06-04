@@ -37,7 +37,7 @@ async def extract_from_pdf(file: UploadFile = File(...)):
 
     try:
         response = client.chat.completions.create(
-            model="gpt-4",
+            model="gpt-3",
             messages=[{"role": "user", "content": prompt}]
         )
 
