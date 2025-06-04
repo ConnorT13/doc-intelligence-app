@@ -1,0 +1,20 @@
+# Ignore Python cache files
+__pycache__/
+*.pyc
+
+# Ignore virtual environments
+venv/
+env/
+
+# Ignore System files
+.DS_store
+
+# Ignore environment variables
+.env
+
+# Ignore build output
+build/
+dist/
+
+# Ignore logs
+*.log
